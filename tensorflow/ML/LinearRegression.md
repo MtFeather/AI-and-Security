@@ -21,3 +21,4 @@ print(lm.coef_)
 # 印出截距
 print(lm.intercept_ )
 ```
+- 使用python2出現與
