@@ -51,3 +51,9 @@ print(lm.coef_)
 # 印出截距
 print(lm.intercept_ )
 ```
+- 執行結果
+```bash
+ksu@ksu-KVM:~/tensorflow$ python2 sklearn_linear_model.py 
+[[3.73788546]]
+[-36.36123348]
+```
