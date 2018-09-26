@@ -1,4 +1,5 @@
 # 建立線性迴歸分析模型:用氣溫來預測冰紅茶的銷售量
+[[第 21 天] 機器學習 玩具資料與線性迴歸](https://github.com/yaojenkuo/learn_python_for_a_r_user/blob/master/day21.md)
 - 使用 sklearn.linear_model 的 LinearRegression() 方法
 ```python
 import numpy as np
