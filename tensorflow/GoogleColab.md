@@ -3,4 +3,4 @@ Colaboratory 是免費的 Jupyter 筆記本環境，不需要進行任何設置�
 
 ## 完成矩陣相乘
 建立矩陣相乘的程式碼，完成後點擊左邊執行程式，第一次因為tensorflow須建立模型，所以會等一段時間。
-![googlecola](/images/googlecola.PNG)
+![googlecola](/images/googlecola01.PNG)
