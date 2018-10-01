@@ -44,5 +44,6 @@ torch.cuda.is_available()
 ```
 ![colab06](/images/colab06.PNG)
 
+> [可以點選此查看更詳細的Colaboratory文件內容](/tensorflow/Colaboratory.ipynb)
 
 
