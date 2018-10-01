@@ -9,7 +9,7 @@ Colaboratory 是免費的 Jupyter 筆記本環境，不需要進行任何設置�
 # 在Google Colab安裝PyTorch
 ## 修改Colaboratory的環境配置
 將硬體環境改為使用GPU，修改 > 記事本設置 > 硬體加速器 > GPU
-![colab01](/images/googlecola01.PNG)
-![colab02](/images/googlecola02.PNG)
+![colab01](/images/colab01.png)
+![colab02](/images/colab02.PNG)
 
 
