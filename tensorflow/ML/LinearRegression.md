@@ -113,5 +113,7 @@ print(r_squared)
 ```
 - 執行結果
 ```bash
-
+ksu@ksu-KVM:~/tensorflow$ python2 mse.py 
+27.934864694776564
+0.8225092881166945
 ```
