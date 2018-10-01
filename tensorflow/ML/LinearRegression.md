@@ -85,3 +85,4 @@ plt.yticks(())
 plt.show()
 ```
 - 執行結果
+![plot](images/plot.PNG)
