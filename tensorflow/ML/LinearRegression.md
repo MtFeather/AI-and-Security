@@ -86,3 +86,32 @@ plt.show()
 ```
 - 執行結果  
 ![plot](/images/plot.PNG)
+
+# 線性迴歸模型的績效
+- 線性迴歸模型的績效（Performance）有 **Mean squared error（MSE）**與 R-squared
+```python
+import numpy as np
+from sklearn.linear_model import LinearRegression
+
+temperatures = np.array([29, 28, 34, 31, 25, 29, 32, 31, 24, 33, 25, 31, 26, 30])
+iced_tea_sales = np.array([77, 62, 93, 84, 59, 64, 80, 75, 58, 91, 51, 73, 65, 84])
+
+# 轉換維度
+temperatures = np.reshape(temperatures, (len(temperatures), 1))
+iced_tea_sales = np.reshape(iced_tea_sales, (len(iced_tea_sales), 1))
+
+lm = LinearRegression()
+lm.fit(temperatures, iced_tea_sales)
+
+# 模型績效
+mse = np.mean((lm.predict(temperatures) - iced_tea_sales) ** 2)
+r_squared = lm.score(temperatures, iced_tea_sales)
+
+# 印出模型績效
+print(mse)
+print(r_squared)
+```
+- 執行結果
+```bash
+
+```
