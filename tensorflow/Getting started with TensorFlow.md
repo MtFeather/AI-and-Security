@@ -25,3 +25,11 @@ with tf.Session() as session:
     session.run(model)
 print(session.run(y))
 ```
+- 出現錯誤
+```bash
+ksu@ksu-KVM:~/Tensorflow_Code/Chapter 1$ python2 first_session_only_tensorflow.py 
+WARNING:tensorflow:From /home/ksu/.local/lib/python2.7/site-packages/tensorflow/python/util/tf_should_use.py:118: initialize_all_variables (from tensorflow.python.ops.variables) is deprecated and will be removed after 2017-03-02.
+Instructions for updating:
+Use `tf.global_variables_initializer` instead.
+10
+```
