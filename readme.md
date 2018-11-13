@@ -10,4 +10,5 @@
 - [在CIFAR-10數據庫的增強圖像上訓練CNN](/tensorflow/20181031.ipynb)
 ### 期中作業
 - [Keras_Mnist_CNN](/tensorflow/Keras_Mnist_CNN.ipynb)
+- [Test_GPU](/tensorflow/Test_GPU.ipynb)
 
