@@ -18,4 +18,5 @@
 ### 期末報告
 - [PPT - pix2pixGAN](/tensorflow/pix2pixGAN.pptx)
 - [Google Colaboratory - pix2pixGAN](/tensorflow/pix2pixGAN.ipynb)
+- [Windows安裝Python+PyTorch.pptx](/tensorflow/Windows安裝Python+PyTorch.pptx)
 
